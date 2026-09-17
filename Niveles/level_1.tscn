@@ -10,7 +10,7 @@
 [node name="Level 1" type="Node2D" unique_id=1806360085]
 
 [node name="PaisajePixelArt" type="Sprite2D" parent="." unique_id=579726521]
-position = Vector2(783, 357)
+position = Vector2(655, 352)
 texture = ExtResource("1_b812v")
 
 [node name="Piso2" parent="." unique_id=1434499525 instance=ExtResource("2_chdw1")]
