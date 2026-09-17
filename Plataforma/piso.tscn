@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cty26eu50vw3g"]
+
+[ext_resource type="Texture2D" uid="uid://clfe4fd4513ov" path="res://sprites_bosque_morado/plataforma_larga.png" id="1_qe6em"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2rmpd"]
+size = Vector2(487, 20)
+
+[node name="Piso" type="StaticBody2D" unique_id=1533496750]
+
+[node name="PlataformaLarga" type="Sprite2D" parent="." unique_id=519059818]
+position = Vector2(0, 34)
+texture = ExtResource("1_qe6em")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=921217868]
+position = Vector2(0.5, 1)
+shape = SubResource("RectangleShape2D_2rmpd")
+one_way_collision = true

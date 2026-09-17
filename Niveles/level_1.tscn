@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://dido7j07172mv"]
+
+[ext_resource type="Texture2D" uid="uid://cqfydhdbgt8v0" path="res://sprites_bosque_morado/paisaje-pixel-art.png" id="1_b812v"]
+[ext_resource type="PackedScene" uid="uid://cty26eu50vw3g" path="res://Plataforma/piso.tscn" id="1_f2at0"]
+[ext_resource type="PackedScene" uid="uid://b10vdc2pboeop" path="res://Plataforma/piso2.tscn" id="2_chdw1"]
+[ext_resource type="PackedScene" uid="uid://bngbfvscp6s8j" path="res://Plataforma/piso3.tscn" id="3_57nca"]
+[ext_resource type="Texture2D" uid="uid://cos36pif33swb" path="res://sprites_bosque_morado/farol_poste.png" id="5_b812v"]
+[ext_resource type="Texture2D" uid="uid://bmdf0jiwp7e71" path="res://sprites_bosque_morado/hierba_01.png" id="6_lqtgv"]
+
+[node name="Level 1" type="Node2D" unique_id=1806360085]
+
+[node name="PaisajePixelArt" type="Sprite2D" parent="." unique_id=579726521]
+position = Vector2(655, 352)
+texture = ExtResource("1_b812v")
+
+[node name="Piso2" parent="." unique_id=1434499525 instance=ExtResource("2_chdw1")]
+position = Vector2(519, 430)
+
+[node name="Piso3" parent="." unique_id=1141830585 instance=ExtResource("3_57nca")]
+position = Vector2(1082, 571)
+
+[node name="Piso" parent="." unique_id=1533496750 instance=ExtResource("1_f2at0")]
+position = Vector2(244, 601)
+
+[node name="Piso4" parent="." unique_id=1691125460 instance=ExtResource("1_f2at0")]
+position = Vector2(731, 601)
+
+[node name="FarolPoste" type="Sprite2D" parent="." unique_id=341824838]
+position = Vector2(49, 535)
+texture = ExtResource("5_b812v")
+
+[node name="Hierba01" type="Sprite2D" parent="." unique_id=1685452726]
+position = Vector2(593, 384)
+texture = ExtResource("6_lqtgv")
