@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dido7j07172mv"]
 
-[ext_resource type="Texture2D" uid="uid://ba4881ewcss6f" path="res://sprites_bosque_morado/00_fondo_bosque_nocturno.png" id="1_chdw1"]
+[ext_resource type="Texture2D" uid="uid://cqfydhdbgt8v0" path="res://sprites_bosque_morado/paisaje-pixel-art.png" id="1_b812v"]
 [ext_resource type="PackedScene" uid="uid://cty26eu50vw3g" path="res://Plataforma/piso.tscn" id="1_f2at0"]
 [ext_resource type="PackedScene" uid="uid://b10vdc2pboeop" path="res://Plataforma/piso2.tscn" id="2_chdw1"]
 [ext_resource type="PackedScene" uid="uid://bngbfvscp6s8j" path="res://Plataforma/piso3.tscn" id="3_57nca"]
@@ -9,10 +9,9 @@
 
 [node name="Level 1" type="Node2D" unique_id=1806360085]
 
-[node name="00FondoBosqueNocturno" type="Sprite2D" parent="." unique_id=239533554]
-position = Vector2(1065, 355)
-scale = Vector2(1.9205776, 2.4527028)
-texture = ExtResource("1_chdw1")
+[node name="PaisajePixelArt" type="Sprite2D" parent="." unique_id=579726521]
+position = Vector2(783, 357)
+texture = ExtResource("1_b812v")
 
 [node name="Piso2" parent="." unique_id=1434499525 instance=ExtResource("2_chdw1")]
 position = Vector2(519, 430)
