@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bjyubdqmeplpm"]
+
+[ext_resource type="Texture2D" uid="uid://dwmkb7scriti6" path="res://sprites_bosque_morado/plataforma_bloque_alto.png" id="1_rse4s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2rmpd"]
+size = Vector2(109, 106)
+
+[node name="Piso" type="StaticBody2D" unique_id=1533496750]
+
+[node name="PlataformaLarga" type="Sprite2D" parent="." unique_id=519059818]
+position = Vector2(0, 20)
+texture = ExtResource("1_rse4s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=921217868]
+position = Vector2(0.5, 11)
+shape = SubResource("RectangleShape2D_2rmpd")
+one_way_collision = true
