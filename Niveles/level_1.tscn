@@ -1,34 +1,187 @@
 [gd_scene format=3 uid="uid://dido7j07172mv"]
 
-[ext_resource type="Texture2D" uid="uid://cqfydhdbgt8v0" path="res://sprites_bosque_morado/paisaje-pixel-art.png" id="1_b812v"]
 [ext_resource type="PackedScene" uid="uid://cty26eu50vw3g" path="res://Plataforma/piso.tscn" id="1_f2at0"]
+[ext_resource type="Texture2D" uid="uid://bqnd27vcjmrf2" path="res://sprites_bosque_morado/fondo_seamless_natural.png" id="1_j7ker"]
 [ext_resource type="PackedScene" uid="uid://b10vdc2pboeop" path="res://Plataforma/piso2.tscn" id="2_chdw1"]
+[ext_resource type="Texture2D" uid="uid://bnodabhkqxieh" path="res://sprites_bosque_morado/tronco_caido.png" id="2_gmwuf"]
+[ext_resource type="Texture2D" uid="uid://hkugvpvjh8n8" path="res://sprites_bosque_morado/hongo_pequeno.png" id="2_lqtgv"]
 [ext_resource type="PackedScene" uid="uid://bngbfvscp6s8j" path="res://Plataforma/piso3.tscn" id="3_57nca"]
+[ext_resource type="Texture2D" uid="uid://dnseuma734fk3" path="res://sprites_bosque_morado/arbol_mediano.png" id="3_ev4q0"]
+[ext_resource type="Texture2D" uid="uid://bke0lkvcr1r2m" path="res://sprites_bosque_morado/suelo_hierba_03.png" id="3_ohvj3"]
+[ext_resource type="Texture2D" uid="uid://cqw524ebfw3sa" path="res://sprites_bosque_morado/arbusto_grande.png" id="3_x0q2t"]
+[ext_resource type="Texture2D" uid="uid://bfsa5r53ko3fd" path="res://sprites_bosque_morado/calavera_con_hierba.png" id="4_20urx"]
+[ext_resource type="Texture2D" uid="uid://bwfe6orgcmaid" path="res://sprites_bosque_morado/planta_flores.png" id="4_fi1k3"]
+[ext_resource type="Texture2D" uid="uid://1u1iw5fsjaq5" path="res://sprites_bosque_morado/suelo_roca_02.png" id="4_wsw6n"]
+[ext_resource type="Texture2D" uid="uid://btm4syy8eil3q" path="res://sprites_bosque_morado/hongo_grande.png" id="5_3fqcr"]
+[ext_resource type="Texture2D" uid="uid://c42l66wd563ns" path="res://sprites_bosque_morado/suelo_hierba_01.png" id="5_3sr0x"]
 [ext_resource type="Texture2D" uid="uid://cos36pif33swb" path="res://sprites_bosque_morado/farol_poste.png" id="5_b812v"]
+[ext_resource type="Texture2D" uid="uid://bfyn2mwrwvalh" path="res://sprites_bosque_morado/valla_madera.png" id="6_2rjpi"]
 [ext_resource type="Texture2D" uid="uid://bmdf0jiwp7e71" path="res://sprites_bosque_morado/hierba_01.png" id="6_lqtgv"]
+[ext_resource type="Texture2D" uid="uid://cw4q4nr2js2nh" path="res://sprites_bosque_morado/planta_pequena.png" id="7_apxr2"]
+[ext_resource type="Texture2D" uid="uid://7i1edb3h4mks" path="res://sprites_bosque_morado/roca_mediana.png" id="8_ij6yj"]
+[ext_resource type="Texture2D" uid="uid://cip1pdf4iw77r" path="res://sprites_bosque_morado/arbol_grande_02.png" id="10_wftgk"]
+[ext_resource type="Texture2D" uid="uid://4hrkx32a0dme" path="res://sprites_bosque_morado/roca_baja.png" id="12_g7kb7"]
+[ext_resource type="PackedScene" uid="uid://bjyubdqmeplpm" path="res://Plataforma/piso4.tscn" id="22_gmxkj"]
+[ext_resource type="Texture2D" uid="uid://67i30ejv5miv" path="res://sprites_bosque_morado/roca_pequena.png" id="23_aublm"]
+[ext_resource type="Texture2D" uid="uid://b76crr8kqto8w" path="res://sprites_bosque_morado/roca_grande.png" id="24_qn1w7"]
 
 [node name="Level 1" type="Node2D" unique_id=1806360085]
 
-[node name="PaisajePixelArt" type="Sprite2D" parent="." unique_id=579726521]
-position = Vector2(655, 352)
-texture = ExtResource("1_b812v")
+[node name="FondoSeamlessNatural" type="Sprite2D" parent="." unique_id=59280807]
+position = Vector2(984, 297)
+texture = ExtResource("1_j7ker")
 
-[node name="Piso2" parent="." unique_id=1434499525 instance=ExtResource("2_chdw1")]
-position = Vector2(519, 430)
+[node name="FondoSeamlessNatural2" type="Sprite2D" parent="." unique_id=1336004795]
+position = Vector2(2851, 297)
+texture = ExtResource("1_j7ker")
 
-[node name="Piso3" parent="." unique_id=1141830585 instance=ExtResource("3_57nca")]
-position = Vector2(1082, 571)
+[node name="FondoSeamlessNatural3" type="Sprite2D" parent="." unique_id=1327770195]
+position = Vector2(4717, 297)
+texture = ExtResource("1_j7ker")
 
-[node name="Piso" parent="." unique_id=1533496750 instance=ExtResource("1_f2at0")]
-position = Vector2(244, 601)
+[node name="TroncoCaido" type="Sprite2D" parent="." unique_id=564206007]
+position = Vector2(2986, 556)
+texture = ExtResource("2_gmwuf")
 
-[node name="Piso4" parent="." unique_id=1691125460 instance=ExtResource("1_f2at0")]
-position = Vector2(731, 601)
+[node name="SueloHierba03" type="Sprite2D" parent="." unique_id=878221594]
+position = Vector2(2235, 441)
+texture = ExtResource("3_ohvj3")
+
+[node name="SueloRoca02" type="Sprite2D" parent="." unique_id=1015777161]
+position = Vector2(2213, 453)
+texture = ExtResource("4_wsw6n")
+
+[node name="SueloHierba01" type="Sprite2D" parent="." unique_id=1082587539]
+position = Vector2(2920, 583)
+texture = ExtResource("5_3sr0x")
+
+[node name="VallaMadera" type="Sprite2D" parent="." unique_id=518716994]
+position = Vector2(3356.0002, 343)
+scale = Vector2(0.48255813, 0.39)
+texture = ExtResource("6_2rjpi")
 
 [node name="FarolPoste" type="Sprite2D" parent="." unique_id=341824838]
-position = Vector2(49, 535)
+position = Vector2(74, 511.74997)
+scale = Vector2(1.4482758, 1.592437)
 texture = ExtResource("5_b812v")
 
-[node name="Hierba01" type="Sprite2D" parent="." unique_id=1685452726]
-position = Vector2(593, 384)
+[node name="ArbolMediano" type="Sprite2D" parent="." unique_id=1283414828]
+position = Vector2(1460, 504)
+texture = ExtResource("3_ev4q0")
+
+[node name="PlantaFlores" type="Sprite2D" parent="." unique_id=2006444953]
+position = Vector2(1368.0001, 584)
+scale = Vector2(0.45238096, 0.42708334)
+texture = ExtResource("4_fi1k3")
+
+[node name="ArbolGrande03" type="Sprite2D" parent="." unique_id=94974056]
+position = Vector2(739, 495)
+texture = ExtResource("10_wftgk")
+
+[node name="ArbustoGrande" type="Sprite2D" parent="." unique_id=1841924795]
+position = Vector2(805, 564)
+texture = ExtResource("3_x0q2t")
+
+[node name="CalaveraConHierba" type="Sprite2D" parent="." unique_id=1267079500]
+position = Vector2(142, 586)
+scale = Vector2(0.79268295, 0.53125)
+texture = ExtResource("4_20urx")
+
+[node name="PlantaPequena" type="Sprite2D" parent="." unique_id=1340380029]
+position = Vector2(374, 561)
+texture = ExtResource("7_apxr2")
+
+[node name="RocaMediana" type="Sprite2D" parent="." unique_id=336405140]
+position = Vector2(406, 579)
+texture = ExtResource("8_ij6yj")
+
+[node name="HongoGrande" type="Sprite2D" parent="." unique_id=923537183]
+position = Vector2(840.375, 583.25)
+scale = Vector2(0.44620225, 0.38207573)
+texture = ExtResource("5_3fqcr")
+
+[node name="HongoPequeno" type="Sprite2D" parent="." unique_id=727001321]
+position = Vector2(819.00006, 593)
+scale = Vector2(0.5290687, 0.39406785)
+texture = ExtResource("2_lqtgv")
+
+[node name="Hierba01" type="Sprite2D" parent="." unique_id=1280015723]
+position = Vector2(1909, 400)
 texture = ExtResource("6_lqtgv")
+
+[node name="RocaBaja" type="Sprite2D" parent="." unique_id=349406784]
+position = Vector2(1891, 415)
+texture = ExtResource("12_g7kb7")
+
+[node name="Piso" parent="." unique_id=1533496750 instance=ExtResource("1_f2at0")]
+position = Vector2(241, 612)
+
+[node name="Piso2" parent="." unique_id=878653781 instance=ExtResource("1_f2at0")]
+position = Vector2(1214, 612)
+
+[node name="Piso8" parent="." unique_id=333161255 instance=ExtResource("1_f2at0")]
+position = Vector2(3068, 612)
+
+[node name="Piso14" parent="." unique_id=542442880 instance=ExtResource("1_f2at0")]
+position = Vector2(3555, 612)
+
+[node name="Piso4" parent="." unique_id=1691125460 instance=ExtResource("1_f2at0")]
+position = Vector2(728, 612)
+
+[node name="Piso3" parent="." unique_id=1009055163 instance=ExtResource("3_57nca")]
+position = Vector2(1564, 575)
+
+[node name="Piso5" parent="." unique_id=1560602252 instance=ExtResource("3_57nca")]
+position = Vector2(1778, 575)
+
+[node name="Piso7" parent="." unique_id=1187188968 instance=ExtResource("3_57nca")]
+position = Vector2(1992, 575)
+
+[node name="ArbolGrande02" type="Sprite2D" parent="." unique_id=1139335930]
+position = Vector2(2424, 532)
+texture = ExtResource("10_wftgk")
+
+[node name="Piso15" parent="." unique_id=855086720 instance=ExtResource("3_57nca")]
+position = Vector2(2314, 575)
+
+[node name="Piso6" parent="." unique_id=1720191173 instance=ExtResource("2_chdw1")]
+position = Vector2(1848, 437)
+
+[node name="Piso10" parent="." unique_id=785728000 instance=ExtResource("2_chdw1")]
+position = Vector2(2300, 470)
+
+[node name="Piso11" parent="." unique_id=1917577907 instance=ExtResource("2_chdw1")]
+position = Vector2(2623, 371)
+
+[node name="Piso12" parent="." unique_id=2144412923 instance=ExtResource("2_chdw1")]
+position = Vector2(2948, 295)
+
+[node name="Piso13" parent="." unique_id=925037825 instance=ExtResource("2_chdw1")]
+position = Vector2(3274, 371)
+
+[node name="Piso9" parent="." unique_id=1758202473 instance=ExtResource("22_gmxkj")]
+position = Vector2(2153, 608)
+
+[node name="RocaBaja2" type="Sprite2D" parent="." unique_id=883229832]
+position = Vector2(2691, 628.75)
+scale = Vector2(1.2592592, 1.5697675)
+texture = ExtResource("12_g7kb7")
+
+[node name="RocaPequena" type="Sprite2D" parent="." unique_id=27696663]
+position = Vector2(2543, 637.25)
+scale = Vector2(1.1470588, 1.1666666)
+texture = ExtResource("23_aublm")
+
+[node name="RocaGrande" type="Sprite2D" parent="." unique_id=1098676668]
+position = Vector2(2469, 657)
+texture = ExtResource("24_qn1w7")
+
+[node name="RocaGrande2" type="Sprite2D" parent="." unique_id=1060791504]
+position = Vector2(2620, 644)
+scale = Vector2(1.2025317, 1.3163265)
+texture = ExtResource("24_qn1w7")
+
+[node name="RocaMediana2" type="Sprite2D" parent="." unique_id=2112996518]
+position = Vector2(2763, 642.75)
+scale = Vector2(1.0819672, 1.1619718)
+texture = ExtResource("8_ij6yj")

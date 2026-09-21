@@ -3,15 +3,17 @@
 [ext_resource type="Texture2D" uid="uid://kr5t1nma0ws1" path="res://sprites_bosque_morado/plataforma_bloque_pequeno.png" id="1_w0oec"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2rmpd"]
-size = Vector2(71, 68)
+size = Vector2(92, 34.5)
 
 [node name="Piso" type="StaticBody2D" unique_id=1533496750]
+position = Vector2(-35, 12)
 
 [node name="PlataformaLarga" type="Sprite2D" parent="." unique_id=519059818]
-position = Vector2(0, 20)
+position = Vector2(3.2500045, 26.249998)
+scale = Vector2(1.3092105, 1.1369048)
 texture = ExtResource("1_w0oec")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=921217868]
-position = Vector2(0.5, 15)
+position = Vector2(2, -0.25)
 shape = SubResource("RectangleShape2D_2rmpd")
 one_way_collision = true

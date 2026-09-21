@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ba4881ewcss6f"
-path="res://.godot/imported/00_fondo_bosque_nocturno.png-d49cd75855ab127f12dfc12bfb6ef9cc.ctex"
+uid="uid://bqnd27vcjmrf2"
+path="res://.godot/imported/fondo_seamless_natural.png-3d9d543db94530564b1f6b23c4638e41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites_bosque_morado/00_fondo_bosque_nocturno.png"
-dest_files=["res://.godot/imported/00_fondo_bosque_nocturno.png-d49cd75855ab127f12dfc12bfb6ef9cc.ctex"]
+source_file="res://sprites_bosque_morado/fondo_seamless_natural.png"
+dest_files=["res://.godot/imported/fondo_seamless_natural.png-3d9d543db94530564b1f6b23c4638e41.ctex"]
 
 [params]
 
